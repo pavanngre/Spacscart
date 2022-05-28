@@ -1,0 +1,50 @@
+.nav-border{
+    border-top: 5px solid black;
+}
+
+.cont-width{
+    width: 100%;
+    margin-inline: 6vw;
+}
+
+@media only screen and (min-width: 992px){
+    .brand-logo{
+        position: absolute;
+        z-index: 10;
+        left: 42vw;
+        padding: 0;
+        top: 0;
+        }
+    .brand-image{
+            width: 232px;
+        }
+}
+
+@media screen and (max-width: 991px){
+    .brand-logo{
+        position: absolute;
+        z-index: 10;
+        left: 6vw;
+        padding: 0;
+        top: 0;
+        }
+    .brand-image{
+            width: 127px;
+        }
+}
+
+.top-nav > span > a {
+    margin-inline: 5px;
+    font-size: 13px;
+    color: #321940;
+    text-decoration: none;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+.user-actions > a > img {
+    width: 25px;
+    margin-inline: 16px;
+}

@@ -1,0 +1,300 @@
+
+.first {
+    background: url("../../assets/Banner.jpg") center / cover no-repeat;
+}
+
+.banner-col-1 {
+    padding-block: 12vh;
+    padding-left: 12vw;
+}
+
+.banner-col-2 {
+    align-self: flex-end;
+    height: 51vh;
+    overflow-y: clip;
+}
+
+.no-bottom{
+    margin-bottom: 0;
+}
+
+.head-1{
+    opacity: 1;
+    animation: head-ani 1s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes head-ani {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+
+.head-2{
+    opacity: 1;
+    animation: head-ani 1s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+
+.head-3{
+    opacity: 1;
+    animation: head-ani 1s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+}
+
+.img-1{
+    width: 27%;
+    position: relative;
+    top: 3vw;
+    left: -1vw;
+    animation: image-ani-1 1s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes image-ani-1 {
+    0% {
+        left: -69vw;
+    }
+    100% {
+        left: -1vw;
+    }
+  }
+
+.img-2{
+    width: 74%;
+    position: relative;
+    top: -6vw;
+    left: 2vw;
+    animation: image-ani-2 1s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+    overflow: hidden;
+}
+
+@keyframes image-ani-2 {
+    0% {
+        top: -32vw;
+    }
+    100% {
+        top: -6vw;
+    }
+  }
+
+.img-3{
+    width: 45%;
+    position: relative;
+    top: -12vw;
+    left: 1vw;
+    animation: image-ani-3 1s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes image-ani-3 {
+    0% {
+        top: 3vw;
+    }
+    100% {
+        top: -12vw;
+    }
+  }
+
+.whats-new-row {
+    justify-content: start;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1170px) {
+    .banner-col-2 {
+        padding-top: 3vw;
+    } 
+}
+
+@media screen and (max-width: 767px) {
+    .whats-new-row {
+        justify-content: center;
+    }
+    .banner-col-1 {
+        text-align: center;
+        padding-top: 5vh !important;
+        padding-block: unset;
+        padding-left: unset;
+    }
+    .banner-col-1 > .row {
+        justify-content: center;
+    }
+    .banner-col-2 {
+        text-align: center;
+        height: 55vw;
+    }
+    .img-1{
+        top: 8vw !important;
+        left: -25vw !important;
+    }
+    .img-2{
+        top: -10vw !important;
+        left: 5vw !important;
+    }
+    .img-3{
+        top: -20vw !important;
+        left: -8vw !important;
+    }
+    .rew-1 {
+        width: 11vw !important;
+    }
+    .rew-2 {
+        width: 15vw !important;
+    }
+    .g1head, .deskp {
+        display: none;
+    }
+    .g1image {
+        top: 3vh !important;
+    }
+    .desk4image {
+        bottom: 4vh !important;
+    }
+    .g1mob1, .g1mob2 {
+        display: block !important;
+    }
+    .third {
+        margin-block: 9vh !important;
+    }
+    .fourth-col1, .fourth-col2 {
+        padding-inline: 5vw !important;
+    }
+}
+
+.lenses-col {
+    margin-top: 10vh;
+    text-align: center;
+    padding-inline: 16vw;
+}
+
+.third {
+    margin-inline: 10vw;
+    margin-block: 25vh;
+}
+
+.g1 {
+    padding-inline: 8vw;
+    background: url("../../assets/Parallaxbackground.jpg") center / cover no-repeat;
+}
+
+.pad-third-col-1 {
+    padding-top: 8vh;
+}
+
+.g1mob1, .g1mob2  {
+    display: none;
+}
+
+.g1head {
+    color: white;
+}
+
+.g1image {
+    top: 11vh;
+    position: relative;
+}
+
+.deskp {
+    color: white;
+    position: relative;
+    bottom: 5vh;
+}
+
+.desk4image {
+    bottom: 13vh;
+    position: relative;
+}
+
+.fourth-col1 {
+    margin-block: 5vh;
+    padding-left: 15vw;
+}
+
+.fourth-col2 {
+    margin-block: 5vh;
+    padding-right: 14vw;
+}
+
+.color-picker {
+    margin-inline: 0.5vw;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.try-button {
+    color: white;
+    font-size: 16px;
+    width: 10vw;
+    border-radius: 30px;
+    background-color: #26b3a3;
+}
+
+.play-button {
+    background-color: #26b3a3;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.play-button > img {
+    width: 10px;
+    position: relative;
+    top: -8px;
+    left: -4px;
+}
+
+.try-button1 {
+    min-width: 136px;
+    margin-inline: 0.5vw;
+    width: 10vw;
+    border-radius: 30px;
+}
+
+.try-button2 {
+    color: white;
+    min-width: 136px;
+    margin-inline: 0.5vw;
+    width: 10vw;
+    border-radius: 30px;
+    background-color: #26b3a3;
+}
+
+.fourth {
+    margin-bottom: 10vh;
+}
+
+.fifth {
+    margin-top: 20vh;
+}
+
+.fifth-col1 {
+    padding-left: 10vw;
+}
+
+.para-color {
+    color: #999;
+}
+
+.rew-1 {
+    width: 6vw;
+}
+
+.rew-2 {
+    width: 8vw;
+}
+
+.custom-margin {
+    margin-inline: 3vw;
+}
